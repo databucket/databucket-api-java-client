@@ -2,11 +2,11 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>DatabucketClient</groupId>
-	<artifactId>databucket-api-java-client</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<groupId>databucket.api.java.client</groupId>
+	<artifactId>databucket-client</artifactId>
+	<version>0.0.1</version>
 	<name>Databucket API client</name>
-	<description>Java client for Databucket api</description>
+	<description>Java client for Databucket API</description>
 	<build>
 		<sourceDirectory>src</sourceDirectory>
 		<plugins>
