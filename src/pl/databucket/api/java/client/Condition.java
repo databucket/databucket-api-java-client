@@ -19,12 +19,12 @@ public class Condition {
 	@SerializedName("right_value")
 	private Object rightValue;
 	
-	public Condition(SourceType leftSource, Object leftValue, Operator operator, SourceType rightSource, Object rightValue) {
+	public Condition(Source leftSource, Object leftValue, Operator operator, Source rightSource, Object rightValue) {
 		this.leftSource = leftSource.toString();
-		this.leftValue = leftSource.equals(SourceType.PROPERTY) ? "$." + leftValue : leftValue;
+		this.leftValue = leftSource.equals(Source.PROPERTY) ? "$." + leftValue : leftValue;
 		this.operator = operator.toString();
 		this.rightSource = rightSource.toString();
-		this.rightValue = rightSource.equals(SourceType.PROPERTY) ? "$." + rightValue : rightValue;
+		this.rightValue = rightSource.equals(Source.PROPERTY) ? "$." + rightValue : rightValue;
 	}
 
 	public String getLeftSource() {

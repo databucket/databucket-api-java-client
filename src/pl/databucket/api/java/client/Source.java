@@ -1,6 +1,6 @@
 package pl.databucket.api.java.client;
 
-public enum SourceType {
+public enum Source {
 	CONST("const"),
 	FIELD("field"), 
 	PROPERTY("property"), 
@@ -8,7 +8,7 @@ public enum SourceType {
 
 	private final String sourceName;
 	
-	private SourceType(String sourceName) {
+	private Source(String sourceName) {
 		this.sourceName = sourceName;
 	}
 	
